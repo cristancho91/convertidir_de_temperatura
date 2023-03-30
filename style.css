@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    
+}
+
+
+body{
+    background: rgb(16,60,231);
+    background: linear-gradient(90deg, rgba(16,60,231,1) 0%, rgba(16,60,231,1) 0%, rgba(100,233,255,1) 100%); 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+
+
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* align-items: center; */
+    justify-content: center;
+    width: 30%;
+}
+#grados{
+    padding: 5px;
+    background-color: rgb(28, 71, 28);
+    color: azure;
+    text-align: center;
+    border: none;
+}
+
+#dato{
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+#button{
+    width: 50%;
+    align-self: center;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: darkblue;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+}
+#button:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+    color: brown;
+}
+.cajaresult{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+#resultado{
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+    background-color: darkblue;
+    border-radius: 5px;
+    color: azure;
+    display: none;
+
+}
+footer{
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+}
